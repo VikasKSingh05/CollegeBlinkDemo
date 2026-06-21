@@ -89,9 +89,12 @@ export default function CollegePage() {
       {/* NAV */}
       <header className="sticky top-0 z-30 backdrop-blur" style={{ background: "rgba(250,248,243,0.92)", borderBottom: `1px solid ${C.hairline}` }}>
         <div className="max-w-5xl mx-auto flex items-center justify-between px-4 sm:px-6 py-3">
-          <span className="font-semibold text-lg" style={{ fontFamily: "'Fraunces', serif", color: C.indigo }}>
-            CollegeBlink
-          </span>
+          <img
+            src="/image.png"
+            alt="CollegeBlink"
+            className="h-9"
+            style={{ objectFit: "contain" }}
+          />
           <button
             onClick={() => setSaved(s => !s)}
             className="hidden md:flex items-center gap-1.5 text-sm font-medium px-3 py-1.5 rounded-full transition"
