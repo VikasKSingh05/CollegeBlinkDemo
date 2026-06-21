@@ -234,7 +234,7 @@ export default function CollegePage() {
       </section>
 
       <section className="max-w-5xl mx-auto px-4 sm:px-6 pt-16">
-        <SectionHeading eyebrow="New · Student Idea" title="Nearby PGs & Stay" />
+        <SectionHeading eyebrow="New · My First Idea" title="Nearby PGs & Stay" />
         <p className="text-sm -mt-3 mb-6 max-w-lg" style={{ color: C.inkSoft }}>
           Verified PGs and flats within a 2 km radius, so accommodation isn't a last-minute scramble.
         </p>
@@ -307,7 +307,7 @@ export default function CollegePage() {
         <div className="rounded-2xl p-6 sm:p-8 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-6" style={{ background: C.indigo }}>
           <div>
             <div className="text-xs font-semibold uppercase tracking-widest mb-2" style={{ color: C.marigold, fontFamily: "'IBM Plex Mono', monospace" }}>
-              New · Student Idea
+              New · My Second Idea 
             </div>
             <h3 className="text-xl sm:text-2xl font-semibold mb-2" style={{ fontFamily: "'Fraunces', serif", color: "#fff" }}>
               Track this application in your dashboard
